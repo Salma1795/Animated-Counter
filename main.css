@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background: url(bg.png)no-repeat center /cover;
+}
+.container{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	background: rgba(26,26,26,.98);
+	color: #fff;
+	padding: 30px 0;
+}
+.content{
+	padding: 10px;
+}
+.icon{
+	font-size: 45px;
+	line-height: 45px;
+	text-align: center;
+	margin: 0 auto;
+}
+.fa-youtube-play{
+	color: #ff0000;
+}
+.fa-instagram{
+	color: #c13584;
+}
+.fa-facebook-official{
+	color: #4267b2;
+}
+.fa-twitter{
+	color:#1da1f2;
+}
+.counter{
+	font-size: 45px;
+	margin: 10px 0;
+}
+h3{
+	font-size: 18px;
+	text-transform: uppercase;
+}
